@@ -9,7 +9,7 @@ A web part to be added to modern site pages to allow configuration of the page b
 ![site page header configurator web part](./assets/site-page-header-configurator.gif)
 
 ## Used SharePoint Framework Version
-![drop](https://img.shields.io/badge/drop-v1-green.svg)
+![drop](https://img.shields.io/badge/drop-GA-green.svg)
 
 ## Applies to
 
