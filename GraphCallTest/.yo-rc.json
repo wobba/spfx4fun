@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.1.0",
+    "libraryName": "graph-call-test",
+    "libraryId": "78f20df6-6b07-46e3-9f17-777700ef3d87",
+    "environment": "spo"
+  }
+}

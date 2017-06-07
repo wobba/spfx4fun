@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "graph-call-test-client-side-solution",
+    "id": "78f20df6-6b07-46e3-9f17-777700ef3d87",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/graph-call-test.sppkg"
+  }
+}
