@@ -11,25 +11,25 @@ export default class HelloWorld extends React.Component<IHelloWorldProps, any> {
   }
 
   public componentDidMount(): void {
-    
+
     //this.props.context.graphHttpClient.get("beta/reports/Office365GroupsActivity(view='Detail',period='D7')/content", GraphHttpClient.configurations.v1).then((response: HttpClientResponse) => {
 
     // Group ID is not directly available yet
     let groupId = this.props.context.pageContext.legacyPageContext.groupId;
     this.props.context.graphHttpClient.get(`v1.0/groups/${groupId}/events`, GraphHttpClient.configurations.v1).then((response: HttpClientResponse) => {
       if (response.ok) {
-        return response.json();
+        response.json().then((result: any) => {
+          debugger;
+          let appointments: string = '';
+          for (var i = 0; i < result.value.length; i++) {
+            var element = result.value[i];
+            appointments += element.subject + "|";
+          }
+          this.setState({ appointments: appointments });
+        });
       } else {
         console.warn(response.statusText);
       }
-    }).then((result: any) => {
-      debugger;
-      let appointments: string = '';
-      for (var i = 0; i < result.value.length; i++) {
-        var element = result.value[i];
-        appointments += element.subject + "|";
-      }
-      this.setState({ appointments: appointments });
     });
   }
 
