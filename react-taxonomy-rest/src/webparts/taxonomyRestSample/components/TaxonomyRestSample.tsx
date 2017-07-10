@@ -113,6 +113,7 @@ export default class TaxonomyRestSample extends React.Component<ITaxonomyRestSam
     this.getChildTermsInTermWithPaging = this.getChildTermsInTermWithPaging.bind(this);
     this.pickSsps = this.pickSsps.bind(this);
     this.getGroups = this.getGroups.bind(this);
+    this.getTermSets = this.getGroups.bind(this);
     this.state = {};
   }
 
