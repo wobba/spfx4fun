@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.1.1",
+    "libraryName": "react-taxonomy-rest",
+    "libraryId": "ff3aa7c2-b6eb-4ef1-9234-1aa837e58729",
+    "environment": "spo"
+  }
+}

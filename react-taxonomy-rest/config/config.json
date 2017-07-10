@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/taxonomyRestSample/TaxonomyRestSampleWebPart.js",
+      "manifest": "./src/webparts/taxonomyRestSample/TaxonomyRestSampleWebPart.manifest.json",
+      "outputPath": "./dist/taxonomy-rest-sample.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "taxonomyRestSampleStrings": "webparts/taxonomyRestSample/loc/{locale}.js"
+  }
+}
