@@ -1,6 +1,6 @@
 ## react-taxonomy-rest
 
-This is where you include your WebPart documentation.
+Sample web part working with managed metadata over REST
 
 ### Building the code
 
