@@ -18,8 +18,7 @@ export default class ReactUiFabricBundlingWebPart extends BaseClientSideWebPart<
     const element: React.ReactElement<IReactUiFabricBundlingProps > = React.createElement(
       ReactUiFabricBundling,
       {
-        description: this.properties.description,
-        context: this.context
+        description: this.properties.description
       }
     );
 
