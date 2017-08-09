@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "7dd235fe-2279-44e5-9e94-4d39538c9dde",
+  "alias": "ReactUiFabricBundlingWebPart",
+  "componentType": "WebPart",
+  "version": "*", // The "*" signifies that the version should be taken from the package.json
+  "manifestVersion": 2,
+
+  /**
+   * This property should only be set to true if it is certain that the webpart does not
+   *  allow arbitrary scripts to be called
+   */
+  "safeWithCustomScriptDisabled": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "7dd235fe-2279-44e5-9e94-4d39538c9dde",
+    "group": { "default": "Under Development" },
+    "title": { "default": "React UI Fabric Bundling" },
+    "description": { "default": "Show how to CDN UI fabric" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "React UI Fabric Bundling"
+    }
+  }]
+}

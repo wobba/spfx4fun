@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "react-bundle-ui-fabric-client-side-solution",
+    "id": "0b980079-033b-45e9-9895-f376fa00239d",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/react-bundle-ui-fabric.sppkg"
+  }
+}

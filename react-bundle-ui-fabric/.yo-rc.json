@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.1.1",
+    "libraryName": "react-bundle-ui-fabric",
+    "libraryId": "0b980079-033b-45e9-9895-f376fa00239d",
+    "environment": "spo"
+  }
+}
