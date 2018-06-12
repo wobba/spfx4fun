@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "dynamic-load",
+    "libraryId": "e13981f7-485a-498b-861e-5e8aea4e63e0",
+    "environment": "spo"
+  }
+}

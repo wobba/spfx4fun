@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "dynamic-load-client-side-solution",
+    "id": "e13981f7-485a-498b-861e-5e8aea4e63e0",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/dynamic-load.sppkg"
+  }
+}
