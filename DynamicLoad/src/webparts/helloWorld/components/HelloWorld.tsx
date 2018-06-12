@@ -8,6 +8,8 @@ import { DisplayMode } from '@microsoft/sp-core-library';
 import { IClientSideWebPartManifest } from '@microsoft/sp-module-interfaces';
 
 let _webPartManager: ClientSideWebPartManager;
+let _sampleIdOne = "mAdcOW" + Guid.newGuid().toString();
+let _sampleIdTwo = "mAdcOW" + Guid.newGuid().toString();
 export default class HelloWorld extends React.Component<IHelloWorldProps, {}> {
 
     public async componentDidMount(): Promise<void> {
@@ -24,8 +26,8 @@ export default class HelloWorld extends React.Component<IHelloWorldProps, {}> {
             removePadding: false,
             spPageContextInfo: false
         }
-        await this.loadWebPart("ScriptEditorWebPart", document.getElementById("one"), props);
-        await this.loadWebPart("ScriptEditorWebPart", document.getElementById("two"), props);
+        await this.loadWebPart("ScriptEditorWebPart", document.getElementById(_sampleIdOne), props);
+        await this.loadWebPart("ScriptEditorWebPart", document.getElementById(_sampleIdTwo), props);
     }
 
     private async loadWebPart(alias: string, domElement: HTMLElement, webPartProperties: any) {
@@ -59,14 +61,15 @@ export default class HelloWorld extends React.Component<IHelloWorldProps, {}> {
     }
 
     public render(): React.ReactElement<IHelloWorldProps> {
+        
         return (
             <div className={styles.helloWorld} >
                 <div className={styles.container}>
                     <div className={styles.row}>
                         <div className={styles.column}>
                             <span className={styles.title}>Dynamic loading!</span>
-                            <span id="one"></span>
-                            <span id="two"></span>
+                            <span id={_sampleIdOne}></span>
+                            <span id={_sampleIdTwo}></span>
                         </div>
                     </div>
                 </div>
