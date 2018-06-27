@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "linkfoo-client-side-solution",
+    "id": "fe5fc2a9-72cf-488e-8a5c-14e628f2db8c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/linkfoo.sppkg"
+  }
+}

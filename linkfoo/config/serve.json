@@ -1,0 +1,10 @@
+{
+    "$schema": "https://dev.office.com/json-schemas/core-build/serve.schema.json",
+    "port": 4321,
+    "https": true,
+    "serveConfigurations": {
+        "default": {
+            "pageUrl": "https://contoso.sharepoint.com/teams/CommSite/SitePages/Home.aspx"
+        }
+    }
+}
